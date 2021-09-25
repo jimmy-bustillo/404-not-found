@@ -51,4 +51,45 @@ html {
 
 .main__information {
   margin-left: 2.4rem;
+  margin-bottom: 114px;
+}
+
+.main__information h2 {
+  font-size: 4.8rem;
+  line-height: 7.1rem;
+  letter-spacing: -2px;
+  font-family: var(--principal);
+  font-weight: var(--bold);
+  margin-bottom: 30px;
+}
+
+.main__information p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  font-family: var(--principal);
+  color: var(--gray2);
+  margin-bottom: 66px;
+}
+
+.main__information button {
+  width: 216px;
+  height: 68px;
+  font-family: var(--principal);
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  background-color: var(--gray1);
+  color: var(--white);
+  border: none;
+}
+
+.footer__container {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer__container p {
+  font-size: 1.4rem;
+  font-weight: var(--bold);
+  line-height: 1.7rem;
+  color: var(--gray3);
 }
