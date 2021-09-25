@@ -4,4 +4,51 @@
   --secondary: "Inconsolata", monospace;
 
   /* Fonts Weight */
+  --bold: 700;
+
+  /* Colors */
+  --gray1: #333;
+  --gray2: #4f4f4f;
+  --gray3: #bdbdbd;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header__container {
+  width: 100%;
+  height: 10.9rem;
+}
+.header__container .header__text {
+  margin: 2rem 0 0 2.4rem;
+  font-size: 2.4rem;
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  font-family: var(--principal);
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__image {
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
+.main__image img {
+  width: 250px;
+  height: 250px;
+}
+
+.main__information {
+  margin-left: 2.4rem;
 }
